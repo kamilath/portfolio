@@ -1,5 +1,8 @@
 import React from "react";
-import Typical from "react-typical";
+import { Typewriter } from 'react-simple-typewriter';
+
+
+
 import { motion } from "framer-motion";
 import "./Home.css";
 import profileImage from "../assets/profile.jpeg"; // Make sure the image is in /src/assets/
@@ -12,6 +15,7 @@ const Home = () => {
         <div className="blob purple"></div>
         <div className="blob yellow"></div>
       </div>
+      
 
       <motion.div
         className="hero-wrapper"
@@ -35,16 +39,15 @@ const Home = () => {
 
           <h3 className="designation">🎓 B.Tech – Information Technology</h3>
 
-          <Typical
-            steps={[
-              "Full-Stack Engineer 💻", 2000,
-              "ML Enthusiast 🤖", 2000,
-              "React Developer ⚛️", 2000,
-            ]}
-            loop={Infinity}
-            wrapper="h2"
-          />
-
+          <Typewriter
+  words={['Web Developer', 'React Enthusiast']}
+  loop={true}
+  cursor
+  cursorStyle="_"
+  typeSpeed={70}
+  deleteSpeed={50}
+  delaySpeed={1000}
+/>
           <div className="hero-links">
             <a href="/projects">✨ View Projects</a>
             <a href="/contact">📬 Contact Me</a>

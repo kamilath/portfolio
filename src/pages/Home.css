@@ -193,3 +193,19 @@
   background-color: #121212;
   box-shadow: 0 0 12px rgba(114, 9, 183, 0.2);
 }
+.typewriter {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ff4081; /* soft pink to match pastel theme */
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  animation: fadeIn 1.2s ease-in-out;
+  background: linear-gradient(90deg, #ff4081, #6C63FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

@@ -39,15 +39,17 @@ const Home = () => {
 
           <h3 className="designation">🎓 B.Tech – Information Technology</h3>
 
-          <Typewriter
-  words={['Web Developer', 'React Enthusiast']}
-  loop={true}
-  cursor
-  cursorStyle="_"
-  typeSpeed={70}
-  deleteSpeed={50}
-  delaySpeed={1000}
-/>
+          <h2 className="typewriter">
+  <Typewriter
+    words={['Full Stack Developer', 'JAVA, PYTHON, ReactJS, Firebase']}
+    loop={true}
+    cursor
+    cursorStyle="_"
+    typeSpeed={70}
+    deleteSpeed={50}
+    delaySpeed={1000}
+  />
+</h2>
           <div className="hero-links">
             <a href="/projects">✨ View Projects</a>
             <a href="/contact">📬 Contact Me</a>

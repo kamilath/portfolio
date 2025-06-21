@@ -1,0 +1,54 @@
+.resume-page {
+  padding: 3rem 2rem;
+  background: #121212;
+  color: #fff;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.resume-page h2 {
+  font-size: 2.5rem;
+  color: #f72585;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 6px #f72585;
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.resume-preview {
+  width: 300px;
+  max-width: 90%;
+  border-radius: 12px;
+  border: 2px solid #7209b7;
+  box-shadow: 0 0 20px rgba(114, 9, 183, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.resume-preview:hover {
+  transform: scale(1.03);
+}
+
+.download-btn {
+  display: inline-block;
+  background: #7209b7;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(247, 37, 133, 0.3);
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background: #f72585;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #f72585;
+}

@@ -1,0 +1,108 @@
+.projects-container {
+  padding: 3rem 2rem;
+  background: #121212;
+  min-height: 100vh;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.projects-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  color: #f72585;
+  text-shadow: 0 0 6px #f72585;
+}
+
+/* ✅ Unified Grid - Responsive & 3 per row */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* ✅ Clean, balanced project box */
+.project-box {
+  background: #2a2a40;
+  border: 2px solid #7209b7;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(247, 37, 133, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 520px;
+  overflow: hidden;
+}
+
+/* Highlighted Major Project */
+.project-box.highlight {
+  border-color: #f72585;
+  background: linear-gradient(135deg, #2a2a40 80%, #7209b7 100%);
+  box-shadow: 0 0 30px rgba(247, 37, 133, 0.3);
+}
+
+.project-box h3 {
+  color: #fca311;
+  margin-bottom: 1rem;
+}
+
+.project-box p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ddd;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.project-box ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.project-box ul li {
+  padding: 0.3rem 0;
+}
+
+.tech-tags {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tags span {
+  background: #3a0ca3;
+  color: #fff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+}
+
+/* GitHub Button */
+.project-box a {
+  align-self: flex-start;
+  background: #7209b7;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(114, 9, 183, 0.4);
+}
+
+.project-box a:hover {
+  background: #f72585;
+  box-shadow: 0 0 12px #f72585;
+  transform: scale(1.05);
+}

@@ -1,0 +1,91 @@
+.contact-page {
+  padding: 3rem 2rem;
+  background: #121212;
+  color: #f1f1f1;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.contact-page h2 {
+  font-size: 2.5rem;
+  color: #f72585;
+  text-shadow: 0 0 8px #f72585;
+  margin-bottom: 2rem;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.contact-info p {
+  margin: 1.2rem 0;
+}
+
+.contact-info .label {
+  color: #fca311;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.contact-info a {
+  color: #7209b7;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #f72585;
+  text-shadow: 0 0 6px #f72585;
+}
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.3rem; /* ⬅️ Increased from 1.1rem */
+  line-height: 2;
+}
+
+.contact-info p {
+  margin: 1.5rem 0;
+  font-size: 1.4rem; /* ⬅️ Larger font for each contact line */
+}
+
+.contact-info .label {
+  color: #fca311;
+  font-weight: 600;
+  font-size: 1.4rem; /* ⬅️ Match the font size */
+  margin-right: 0.5rem;
+}
+
+.contact-info a {
+  font-size: 1.4rem; /* ⬅️ Email & LinkedIn are larger now */
+  color: #7209b7;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #f72585;
+  text-shadow: 0 0 6px #f72585;
+}
+.contact-info .label {
+  color: #ffb347; /* gold-ish orange */
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+}
+
+.contact-info a {
+  font-size: 1.4rem;
+  color: #00d4ff; /* bright neon blue */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #f72585;
+  text-shadow: 0 0 8px #f72585;
+}
